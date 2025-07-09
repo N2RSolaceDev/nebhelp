@@ -32,7 +32,7 @@ const ALLOWED_CHANNEL_ID = '1390507210421043290';
 const ALLOWED_SERVER_ID = '1345474714331643956';
 const INVITE_LINK = 'https://discord.com/oauth2/authorize?client_id=1391678741717192807&permissions=8&integration_type=0&scope=bot';
 
-const inviteCommands = ['!invite', ',invite', '?invite', '!bot', ',bot', '?bot'];
+const inviteCommands = ['!invite', ',invite', '?invite', '-invite', '!bot', ',bot', '?bot'];
 
 // Delete old messages in allowed channel
 async function clearAllowedChannel() {
